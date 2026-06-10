@@ -262,29 +262,6 @@ p {
   color: var(--paper);
 }
 
-.price-lockup {
-  display: flex;
-  align-items: flex-end;
-  gap: 14px;
-  margin-top: 30px;
-}
-
-.price-lockup span {
-  max-width: 82px;
-  color: rgba(251, 250, 245, 0.62);
-  font-size: 0.75rem;
-  line-height: 1.2;
-  text-transform: uppercase;
-}
-
-.price-lockup strong {
-  color: var(--paper);
-  font-family: var(--wide-font);
-  font-size: 3.25rem;
-  font-weight: 600;
-  line-height: 0.88;
-}
-
 .hero-facts {
   display: grid;
   grid-template-columns: repeat(3, minmax(0, 1fr));
@@ -766,10 +743,6 @@ footer p {
 
   .hero-media img {
     object-position: 60% center;
-  }
-
-  .price-lockup strong {
-    font-size: 2.55rem;
   }
 
   .object-details,
